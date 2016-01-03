@@ -1,0 +1,22 @@
+{
+  "name": "ug",
+  "authors": [
+    "Vincent Kyle Eusebio <eusebiovk@gmail.com>"
+  ],
+  "description": "milligram framework customizer",
+  "license": "MIT",
+  "homepage": "https://github.com/vkeusebio/ug",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "milligram": "~1.0.3",
+    "font-awesome": "fontawesome#~4.5.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "ug",
+  "version": "1.0.0",
+  "description": "milligram framework customizer",
+  "dependencies": {
+    "bower": "^1.7.2",
+    "gulp": "^3.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkeusebio/ug.git"
+  },
+  "keywords": [
+    "customizer",
+    "editor",
+    "milligram"
+  ],
+  "author": "Vincent Kyle Eusebio <eusebiovk@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vkeusebio/ug/issues"
+  },
+  "homepage": "https://github.com/vkeusebio/ug#readme"
+}
