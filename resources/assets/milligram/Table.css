@@ -1,0 +1,22 @@
+
+/* Table
+ ––––––––––––––––––––––––––––––––––––––––––––––––––
+*/
+table {
+  width: 100%;
+}
+
+th,
+td {
+  border-bottom: 0.1rem solid #e1e1e1;
+  padding: 1.2rem 1.5rem;
+  text-align: left;
+}
+th:first-child,
+td:first-child {
+  padding-left: 0;
+}
+th:last-child,
+td:last-child {
+  padding-right: 0;
+}

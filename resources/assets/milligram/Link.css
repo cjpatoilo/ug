@@ -1,0 +1,11 @@
+
+/* Link
+ ––––––––––––––––––––––––––––––––––––––––––––––––––
+*/
+a {
+  color: #9b4dca;
+  text-decoration: none;
+}
+a:hover {
+  color: #606c76;
+}

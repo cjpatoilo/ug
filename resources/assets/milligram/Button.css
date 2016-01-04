@@ -1,0 +1,84 @@
+
+/* Button
+ ––––––––––––––––––––––––––––––––––––––––––––––––––
+*/
+.button,
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+  background-color: #9b4dca;
+  border: 0.1rem solid #9b4dca;
+  border-radius: 0.4rem;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 700;
+  height: 3.8rem;
+  letter-spacing: 0.1rem;
+  line-height: 3.8rem;
+  padding: 0 3rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.button:hover, .button:focus,
+button:hover,
+button:focus,
+input[type='button']:hover,
+input[type='button']:focus,
+input[type='reset']:hover,
+input[type='reset']:focus,
+input[type='submit']:hover,
+input[type='submit']:focus {
+  background-color: #606c76;
+  border-color: #606c76;
+  color: #ffffff;
+  outline: 0;
+}
+.button.button-outline,
+button.button-outline,
+input[type='button'].button-outline,
+input[type='reset'].button-outline,
+input[type='submit'].button-outline {
+  color: #9b4dca;
+  background-color: transparent;
+}
+.button.button-outline:hover, .button.button-outline:focus,
+button.button-outline:hover,
+button.button-outline:focus,
+input[type='button'].button-outline:hover,
+input[type='button'].button-outline:focus,
+input[type='reset'].button-outline:hover,
+input[type='reset'].button-outline:focus,
+input[type='submit'].button-outline:hover,
+input[type='submit'].button-outline:focus {
+  color: #606c76;
+  background-color: transparent;
+  border-color: #606c76;
+}
+.button.button-clear,
+button.button-clear,
+input[type='button'].button-clear,
+input[type='reset'].button-clear,
+input[type='submit'].button-clear {
+  color: #9b4dca;
+  background-color: transparent;
+  border-color: transparent;
+}
+.button.button-clear:hover, .button.button-clear:focus,
+button.button-clear:hover,
+button.button-clear:focus,
+input[type='button'].button-clear:hover,
+input[type='button'].button-clear:focus,
+input[type='reset'].button-clear:hover,
+input[type='reset'].button-clear:focus,
+input[type='submit'].button-clear:hover,
+input[type='submit'].button-clear:focus {
+  color: #606c76;
+  background-color: transparent;
+  border-color: transparent;
+}
