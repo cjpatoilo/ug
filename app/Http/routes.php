@@ -11,6 +11,17 @@
 |
 */
 
+/*
 $app->get('/', function () use ($app) {
     return $app->welcome();
 });
+*/
+
+$app->get('/', [
+  'as' => 'home.index',
+  'uses' => 'HomeController@index'
+]);
+$app->post('/', [
+  'as' => 'home.download',
+  'uses' => 'HomeController@download'
+]);
