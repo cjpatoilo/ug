@@ -1,3 +1,7 @@
+body {
+  background-color: #f4f5f6;
+}
+
 .wrapper {
   position: relative;
   display: block;
